@@ -12,7 +12,7 @@ function Header() {
       <h5 className="text-green-4">Fullstack Developer</h5>
       <div className="flex gap-5 justify-center">
         <a
-          href="/assets/pdf/cd.pdf"
+          href="/assets/pdf/cvresume.pdf"
           className="p-2 w-36 rounded border border-green-1 hover:bg-green-4"
         >
           Download CV
