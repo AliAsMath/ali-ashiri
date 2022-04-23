@@ -19,7 +19,7 @@ function About() {
             />
           </div>
         </div>
-        <div className="flex-1 pr-7 md:pl-7 flex flex-col justify-between text-sm sm:text-xs text-green-6 md:gap-3">
+        <div className="flex-1 pr-7 md:pl-7 flex flex-col justify-between text-sm sm:text-xs text-green-6 gap-7">
           <div className="flex sm:flex-col sm:items-center sm:gap-5 justify-between ">
             <article className="bg-green-1 rounded p-5 sm:p-1 sm:w-1/2 leading-7 sm:leading-none text-center hover:bg-green-3">
               <h3 className="text-green-5 text-base sm:text-sm">Education</h3>
@@ -46,7 +46,7 @@ function About() {
               <h4>Artificial Intelligence</h4>
             </article>
           </div>
-          <p>
+          <p className=" text-justify">
             My intense interest in mathematics and physics led me to mathematics
             & physics and then to engineering. At university, I became
             interested in computers and programming, and for my senior year I

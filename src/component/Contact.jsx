@@ -1,6 +1,7 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
 
@@ -28,37 +29,39 @@ function Contact() {
       <h5 className="text-green-4">Get In Touch</h5>
       <h2 className="text-green-6 text-3xl">Contact Me</h2>
       <div className="flex sm:flex-col justify-center gap-20 md:gap-10 sm:gap-5">
-        <div className="flex-1 flex flex-col gap-5 items-end sm:items-center">
-          <a
-            href="mailto:ashiri.ali.72@gmail.com"
-            className="flex flex-col items-center gap-2 w-fit p-3 bg-green-1 rounded-xl hover:bg-green-3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <MdOutlineEmail className="text-xl text-green-6" />
-            <h4 className="text-lg text-green-6">Email</h4>
-            <h5 className="text-green-4">ashiri.ali.72@gmail.com</h5>
-          </a>
-          <a
-            href="https://api.whatsapp.com/send?phone=+989373846277"
-            className="flex flex-col items-center gap-2 w-fit p-3 bg-green-1 rounded-xl hover:bg-green-3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsWhatsapp className="text-xl text-green-6" />
-            <h4 className="text-lg text-green-6">WhatsApp</h4>
-            <h5 className="text-green-4">ashiri.ali.72@gmail.com</h5>
-          </a>
-          <a
-            href="https://telegram.me/ali_as72"
-            className="flex flex-col items-center gap-2 w-fit p-3 bg-green-1 rounded-xl hover:bg-green-3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsTelegram className="text-xl text-green-6" />
-            <h4 className="text-lg text-green-6">Telegram</h4>
-            <h5 className="text-green-4">ashiri.ali.72@gmail.com</h5>
-          </a>
+        <div className="flex-1 flex justify-end sm:justify-center">
+          <div className=" flex flex-col gap-5">
+            <a
+              href="mailto:ashiri.ali.72@gmail.com"
+              className="flex flex-col items-center gap-2  p-3 bg-green-1 rounded-xl hover:bg-green-3"
+            >
+              <MdOutlineEmail className="text-xl text-green-6" />
+              <h4 className="text-lg text-green-6">Email</h4>
+              <h5 className="text-green-4">ashiri.ali.72@gmail.com</h5>
+            </a>
+            <a
+              href="tel:+989373846277"
+              className="flex flex-col items-center gap-2  p-3 bg-green-1 rounded-xl hover:bg-green-3"
+            >
+              <BsFillTelephoneFill className="text-xl text-green-6" />
+              <h4 className="text-lg text-green-6">tel</h4>
+              <h5 className="text-green-4">09373846277</h5>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=+989373846277"
+              className="flex flex-col items-center gap-2  p-3 bg-green-1 rounded-xl hover:bg-green-3"
+            >
+              <BsWhatsapp className="text-xl text-green-6" />
+              <h4 className="text-lg text-green-6">WhatsApp</h4>
+            </a>
+            <a
+              href="https://telegram.me/ali_as72"
+              className="flex flex-col items-center gap-2  p-3 bg-green-1 rounded-xl hover:bg-green-3"
+            >
+              <BsTelegram className="text-xl text-green-6" />
+              <h4 className="text-lg text-green-6">Telegram</h4>
+            </a>
+          </div>
         </div>
         <form
           onSubmit={sendEmailHandler}
