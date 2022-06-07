@@ -8,12 +8,12 @@ import { GiRibbonMedal } from "react-icons/gi";
 function Nav() {
   const { hash } = window.location;
   const [isActive, setIsActive] = useState(hash.slice(1));
-  const [isShow, setIsShow] = useState(false);
+  const [isShow, setIsShow] = useState(true);
   let timer;
 
   const enterHandler = () => {
     clearTimeout(timer);
-
+    console.log("enter");
     setIsShow(true);
   };
 
@@ -22,7 +22,6 @@ function Nav() {
 
     timer = setTimeout(() => {
       setIsShow(false);
-      console.log("clear");
     }, 3000);
   };
 

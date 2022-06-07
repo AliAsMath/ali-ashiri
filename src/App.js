@@ -1,5 +1,5 @@
 import About from "./component/About";
-import Experience from "./component/Experience";
+import Experience from "./component/experience/Experience";
 import Header from "./component/Header";
 import Nav from "./component/Nav";
 import Portfolio from "./component/Portfolio";
@@ -9,7 +9,7 @@ import Certificates from "./component/Certificate";
 
 function App() {
   return (
-    <div className="w-full font-serif bg-gradient-to-tr from-green-1 to-green-3 text-white">
+    <div className="w-full font-serif text-white bg-gradient-to-tr from-green-1 to-green-3">
       <Header />
       <Nav />
       <About />

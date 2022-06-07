@@ -5,10 +5,10 @@ function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="min-h-screen p-14 sm:p-7 flex flex-col gap-5 justify-center items-center"
+      className="flex flex-col items-center justify-center min-h-screen gap-5 p-14 sm:p-7"
     >
       <h5 className="text-green-4">My Recent Works</h5>
-      <h2 className="text-green-6 text-3xl">Portfolio</h2>
+      <h2 className="text-3xl text-green-6">Portfolio</h2>
       <div className="flex flex-wrap justify-center gap-5">
         <PortfolioItme
           title="E-Commerce Website"
@@ -18,7 +18,7 @@ function Portfolio() {
         />
         <PortfolioItme
           title="Social App"
-          image="/assets/image/zagros-social.png"
+          image="/assets/image/zagros-social.jpg"
           githubLink="https://github.com/AliAsMath/socialZagros-client"
           liveLink="https://social-zagros-client.vercel.app/"
         />
@@ -31,7 +31,7 @@ function Portfolio() {
 
         <PortfolioItme
           title="Netflix Clone"
-          image="/assets/image/netflix-clone.png"
+          image="/assets/image/netflix-clone.jpg"
           githubLink="https://github.com/AliAsMath/Netflix-clone"
           liveLink="https://netflix-clone-opal-omega.vercel.app/"
         />
