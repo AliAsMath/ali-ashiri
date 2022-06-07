@@ -5,21 +5,21 @@ function Header() {
   return (
     <header
       id="header"
-      className="flex flex-col gap-1 sm:gap-5 text-center justify-center leading-7 overflow-hidden h-screen "
+      className="flex flex-col justify-center h-screen gap-1 overflow-hidden leading-7 text-center sm:gap-5 "
     >
       <h5 className="text-green-4">Hello I'm</h5>
       <h1 className="text-4xl text-green-5">Ali Ashiri</h1>
       <h5 className="text-green-4">Fullstack Developer</h5>
-      <div className="flex gap-5 justify-center">
+      <div className="flex justify-center gap-5">
         <a
           href="/assets/pdf/cvresume.pdf"
-          className="p-2 w-36 rounded border border-green-1 hover:bg-green-4"
+          className="p-2 border rounded w-36 border-green-1 hover:bg-green-4"
         >
           Download CV
         </a>
         <a
           href="#contact"
-          className="p-2 w-36 rounded border text-black border-green-1 bg-green-5 hover:bg-green-4"
+          className="p-2 text-black border rounded w-36 border-green-1 bg-green-5 hover:bg-green-4"
         >
           Let's Talk
         </a>
