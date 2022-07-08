@@ -1,11 +1,11 @@
 import React from "react";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import {BsGithub, BsLinkedin} from "react-icons/bs";
 
 function Header() {
   return (
     <header
       id="header"
-      className="flex flex-col justify-center h-screen gap-1 overflow-hidden leading-7 text-center sm:gap-5 "
+      className="flex flex-col justify-center min-h-screen gap-1 overflow-hidden leading-7 text-center sm:gap-5 "
     >
       <h5 className="text-green-4">Hello I'm</h5>
       <h1 className="text-4xl text-green-5">Ali Ashiri</h1>

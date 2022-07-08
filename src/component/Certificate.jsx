@@ -1,13 +1,13 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import {Pagination} from "swiper";
 
 function Certificates() {
   return (
     <section
       id="certificates"
-      className="h-screen flex flex-col gap-5 justify-center items-center"
+      className="min-h-screen flex flex-col gap-5 justify-center items-center"
     >
       <h5 className="text-green-4">Overview Of</h5>
       <h2 className="text-green-5 text-3xl mb-7">Certificates</h2>

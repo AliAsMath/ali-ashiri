@@ -1,11 +1,11 @@
-import { BiBrain, BiInfinite } from "react-icons/bi";
-import { FcElectronics } from "react-icons/fc";
+import {BiBrain, BiInfinite} from "react-icons/bi";
+import {FcElectronics} from "react-icons/fc";
 
 function About() {
   return (
     <section
       id="about"
-      className="h-screen flex flex-col items-center gap-5 justify-center"
+      className="min-h-screen flex flex-col items-center gap-5 justify-center"
     >
       <h5 className="text-green-4">Get To Know</h5>
       <h2 className="text-green-5 text-3xl mb-7">About Me</h2>
