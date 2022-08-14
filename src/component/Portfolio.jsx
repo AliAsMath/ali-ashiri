@@ -11,6 +11,12 @@ function Portfolio() {
       <h2 className="text-3xl text-green-6">Portfolio</h2>
       <div className="flex flex-wrap justify-center gap-5">
         <PortfolioItme
+          title="Discord WebApp"
+          image="/assets/image/discord.png"
+          githubLink="https://github.com/AliAsMath/discord-front"
+          liveLink="https://discord-front-psi.vercel.app/"
+        />
+        <PortfolioItme
           title="E-Commerce Website"
           image="/assets/image/monaco.png"
           githubLink="https://github.com/AliAsMath/Monaco"
