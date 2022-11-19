@@ -1,5 +1,5 @@
-import {BiBrain, BiInfinite} from "react-icons/bi";
-import {FcElectronics} from "react-icons/fc";
+import { BiBrain, BiInfinite } from "react-icons/bi";
+import { FcElectronics } from "react-icons/fc";
 
 function About() {
   return (
